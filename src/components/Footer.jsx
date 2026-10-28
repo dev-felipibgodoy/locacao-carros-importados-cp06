@@ -4,6 +4,9 @@ const contatos = [
   { label: 'Atendimento', valor: 'Segunda a sábado, das 8h às 20h' },
 ]
 
+const ano = new Date().getFullYear()
+
+function Footer() {
 function Footer() {
   const ano = new Date().getFullYear()
 
