@@ -4,9 +4,9 @@ const contatos = [
   { label: 'Atendimento', valor: 'Segunda a sábado, das 8h às 20h' },
 ]
 
-function Footer() {
-  const ano = new Date().getFullYear()
+const ano = new Date().getFullYear()
 
+function Footer() {
   return (
     <footer className="bg-ink text-white">
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-2">
