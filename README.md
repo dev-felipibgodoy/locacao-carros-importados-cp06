@@ -23,3 +23,19 @@ Para gerar a versão de produção: `npm run build`.
 
 - `/`: Home, com destaques e como funciona.
 - `/carros`: lista de carros com filtro por categoria e busca.
+
+## Estrutura de pastas
+
+```text
+src/
+  components/   Navbar, Footer e Card
+  pages/        Home e Carros
+  data/         lista de carros
+  App.jsx       rotas
+```
+
+## Fluxo de Git
+
+- Branches principais: `main` e `dev`.
+- Cada tarefa em uma branch própria, com no mínimo 3 commits semânticos.
+- Pull Request para `dev` ao concluir cada tarefa; `dev` vai para `main` na entrega.
