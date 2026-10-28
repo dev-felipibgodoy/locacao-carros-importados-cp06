@@ -7,6 +7,9 @@ const contatos = [
 const ano = new Date().getFullYear()
 
 function Footer() {
+function Footer() {
+  const ano = new Date().getFullYear()
+
   return (
     <footer className="bg-ink text-white">
       <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 md:grid-cols-2">
